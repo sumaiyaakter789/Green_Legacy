@@ -1,0 +1,23 @@
+{
+  "name": "consultation-video-call",
+  "version": "1.0.0",
+  "description": "Video call system for consultations",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "node start-video-server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "keywords": [
+    "webrtc",
+    "video-call",
+    "consultation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

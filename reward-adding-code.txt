@@ -1,0 +1,2 @@
+require_once 'calculate_reward_points.php';
+calculateRewardPoints($user_id, $conn);
